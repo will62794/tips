@@ -1,13 +1,19 @@
 \title{tikz Tips}
-\author{William Schultz}
-\date{\today}
 
 \documentclass[12pt]{article}
 
-\begin{document}
-\maketitle
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tikz}
 
-\subsection*{Concentric circles with different colors}
+\begin{document}
+
+
+\subsection*{Concentric circles with different colors and text}
+
+\phantom{spacing}
+
+% Colors require \usepackage[dvipsnames]{xcolor}.
+\begin{center}
 \begin{tikzpicture}
 
   % 3 circles.
@@ -27,9 +33,10 @@
   \draw[dashed,->] (-2,2) -- (0,0);
 
   % Circle node with text annotation.
-  \filldraw[black] (0,0) circle (1pt) node[anchor=west] {\small Intersection point};
+  \filldraw[black] (0,0) circle (1pt) node[anchor=west] {\small Center point};
 
-\end{tikzpicture}  
+\end{tikzpicture}
+\end{center}  
 
 
 \end{document}
