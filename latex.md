@@ -8,6 +8,9 @@ Super basic LaTeX template:
 
 \begin{document}
 
+\usepackage{amsmath}
+\usepackage{amssymb}
+
 \maketitle
 
 \section{Introduction}
