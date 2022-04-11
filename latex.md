@@ -1,15 +1,15 @@
 Super basic LaTeX template:
 ```latex
-\title{Template}
-\author{William Schultz}
-\date{\today}
-
 \documentclass[12pt]{article}
-
-\begin{document}
 
 \usepackage{amsmath}
 \usepackage{amssymb}
+
+\begin{document}
+
+\title{Template}
+\author{William Schultz}
+\date{\today}
 
 \maketitle
 
